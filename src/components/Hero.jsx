@@ -19,7 +19,7 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="text-5xl md:text-6xl font-extrabold tracking-tight text-white drop-shadow-[0_8px_40px_rgba(56,189,248,0.35)]"
             >
-              Building Playful Web Experiences
+              Hey, I’m Jayesh — I build playful, high‑impact web apps
             </motion.h1>
 
             <motion.p
@@ -28,7 +28,7 @@ export default function Hero() {
               transition={{ delay: 0.1, duration: 0.6 }}
               className="mt-5 text-lg md:text-xl text-slate-200/90 max-w-xl"
             >
-              I’m a full‑stack developer crafting modern, animated interfaces with robust backends. Let’s turn ideas into interactive stories.
+              I’m a Software Engineer who turns ideas into real products with clean code and strong teamwork. From full‑stack builds to leading teams, I love solving problems and shipping delightful experiences.
             </motion.p>
 
             <motion.div
@@ -51,10 +51,10 @@ export default function Hero() {
               transition={{ delay: 0.35, duration: 0.6 }}
               className="mt-10 grid grid-cols-3 gap-6 text-center"
             >
-              {["React", "Node", "Cloud"].map((t) => (
+              {["Full‑Stack", "Leadership", "Learning"].map((t) => (
                 <div key={t} className="rounded-2xl border border-white/10 bg-slate-900/40 backdrop-blur p-4 text-slate-200">
                   <div className="text-lg font-semibold">{t}</div>
-                  <div className="text-xs text-slate-400">Pro level</div>
+                  <div className="text-xs text-slate-400">Core focus</div>
                 </div>
               ))}
             </motion.div>

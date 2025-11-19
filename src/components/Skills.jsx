@@ -6,19 +6,19 @@ const skills = [
     icon: Code,
     title: 'Frontend',
     items: ['React', 'Next.js', 'Tailwind', 'Framer Motion', 'Vite'],
-    gradient: 'from-fuchsia-500 to-indigo-500',
+    gradient: 'from-pink-500 to-indigo-500',
   },
   {
     icon: Server,
     title: 'Backend',
-    items: ['Node', 'FastAPI', 'MongoDB', 'Prisma', 'Auth'],
+    items: ['Node', 'FastAPI', 'MongoDB', 'Auth', 'REST/GraphQL'],
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
     icon: Rocket,
-    title: 'DevOps',
-    items: ['Docker', 'CI/CD', 'Cloudflare', 'Vercel', 'AWS'],
-    gradient: 'from-emerald-500 to-teal-500',
+    title: 'Leadership',
+    items: ['People Mgmt', 'Mentoring', 'Project Planning', 'Agile', 'Communication'],
+    gradient: 'from-amber-500 to-rose-500',
   },
 ]
 
@@ -28,7 +28,7 @@ export default function Skills() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Superpowers</h2>
-          <p className="text-slate-300 mt-2">A blend of engineering and animation craft.</p>
+          <p className="text-slate-300 mt-2">Engineering craft + leadership that ships.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">

@@ -5,8 +5,8 @@ export default function Contact() {
     <section id="contact" className="relative py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Let’s build something fun</h2>
-          <p className="text-slate-300 mt-2">Tell me about your project and timeline.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">Let’s build something together</h2>
+          <p className="text-slate-300 mt-2">Open to collaborations, product builds, or leadership roles.</p>
         </div>
 
         <motion.form
@@ -27,7 +27,7 @@ export default function Contact() {
           </div>
           <div className="md:col-span-2">
             <label className="block text-slate-300 text-sm mb-2">Message</label>
-            <textarea rows={5} required className="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" placeholder="What are we building?" />
+            <textarea rows={5} required className="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3 text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" placeholder="What would you like to build together?" />
           </div>
           <div className="md:col-span-2 flex items-center justify-between">
             <p className="text-slate-400 text-sm">Response within 24 hours.</p>
